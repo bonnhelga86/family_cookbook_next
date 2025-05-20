@@ -1,0 +1,40 @@
+.header {
+  &__button {
+    mask-image: url(../../assets/images/exit_icon.svg);
+    mask-size: cover;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 35px;
+    height: 35px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgba(255, 255, 255, 0.85);
+    }
+  }
+
+  &__burger {
+    display: none;
+    mask-image: url(../../assets/images/burger-menu_icon.svg);
+    mask-size: cover;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 40px;
+    height: 40px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgba(255, 255, 255, 0.85);
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header {
+    &__menu {
+      display: none;
+    }
+
+    &__burger {
+      display: block;
+    }
+  }
+}

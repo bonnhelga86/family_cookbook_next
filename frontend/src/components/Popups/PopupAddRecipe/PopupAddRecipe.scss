@@ -1,0 +1,35 @@
+.add-recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+
+  &__list {
+    margin-bottom: 30px;
+  }
+
+  &__tabs-wrap {
+    height: calc(100% - 60px);
+
+    & > .tab-content {
+      height: calc(100% - 72px);
+    }
+  }
+
+  &__tab {
+    &.active {
+      border-bottom-color: #dc3545 !important;
+    }
+  }
+
+  &__button-wrap {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__button_disabled {
+    pointer-events: none;
+    opacity: 0.7;
+  }
+}

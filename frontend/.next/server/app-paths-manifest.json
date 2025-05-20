@@ -1,0 +1,4 @@
+{
+  "/(contents)/recipes/page": "app/(contents)/recipes/page.js",
+  "/(contents)/page": "app/(contents)/page.js"
+}

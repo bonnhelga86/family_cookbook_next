@@ -1,0 +1,22 @@
+{
+  "pages": {
+    "/(contents)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(contents)/layout.css",
+      "static/chunks/app/(contents)/layout.js"
+    ],
+    "/(contents)/recipes/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(contents)/recipes/page.css",
+      "static/chunks/app/(contents)/recipes/page.js"
+    ],
+    "/(contents)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(contents)/page.css",
+      "static/chunks/app/(contents)/page.js"
+    ]
+  }
+}

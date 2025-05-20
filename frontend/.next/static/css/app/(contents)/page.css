@@ -1,0 +1,272 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/components/Lead/Lead.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.lead {
+  position: relative;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lead__title {
+  margin: 100px 0 70px;
+  padding: 0 12px;
+  font-size: 62px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+}
+.lead__quote {
+  position: relative;
+  margin: 0 auto 120px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 19px;
+  font-style: italic;
+  letter-spacing: 1.1px;
+  width: 70%;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.9);
+}
+.lead__button {
+  margin-right: 80px;
+  align-self: self-end;
+}
+.lead__image {
+  position: absolute;
+  background-image: url(/_next/static/media/salat.e46c592e.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  z-index: -1;
+}
+.lead__image::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 991px) {
+  .lead__title {
+    font-size: 54px;
+  }
+  .lead__button {
+    align-self: center;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .lead__title {
+    font-size: 48px;
+  }
+  .lead__button {
+    align-self: normal;
+    margin: 0 12px;
+  }
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/components/Benefit/Benefit.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.benefit {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.benefit__item {
+  display: flex;
+  gap: 50px;
+}
+.benefit__icon-wrap {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #dc3545;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.benefit__icon {
+  width: 40px;
+  height: 40px;
+  -webkit-mask-size: cover;
+          mask-size: cover;
+  background-color: #fff;
+}
+.benefit__icon_type_cookbook {
+  -webkit-mask-image: url(/_next/static/media/cookbook_icon.fe19daab.svg);
+          mask-image: url(/_next/static/media/cookbook_icon.fe19daab.svg);
+}
+.benefit__icon_type_calendar {
+  -webkit-mask-image: url(/_next/static/media/calendar_icon.a06f5b30.svg);
+          mask-image: url(/_next/static/media/calendar_icon.a06f5b30.svg);
+}
+.benefit__icon_type_list {
+  -webkit-mask-image: url(/_next/static/media/list_icon.51f64e44.svg);
+          mask-image: url(/_next/static/media/list_icon.51f64e44.svg);
+}
+.benefit__icon_type_comment {
+  -webkit-mask-image: url(/_next/static/media/comments_icon.15254eb3.svg);
+          mask-image: url(/_next/static/media/comments_icon.15254eb3.svg);
+}
+.benefit__content-wrap {
+  width: 500px;
+}
+.benefit__title {
+  font-size: 28px;
+}
+.benefit__text {
+  margin: 0;
+}
+
+@media screen and (max-width: 1120px) {
+  .benefit__item {
+    gap: 30px;
+  }
+  .benefit__icon-wrap {
+    width: 70px;
+    height: 70px;
+  }
+  .benefit__content-wrap {
+    width: 400px;
+  }
+  .benefit__title {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .benefit {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 100px;
+  }
+  .benefit__item {
+    flex-direction: column;
+    width: 250px;
+    text-align: center;
+    gap: 20px;
+  }
+  .benefit__icon-wrap {
+    margin: 0 auto;
+  }
+  .benefit__content-wrap {
+    width: 250px;
+  }
+  .benefit__title {
+    font-size: 20px;
+    min-height: 48px;
+  }
+  .benefit__text {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .benefit {
+    justify-content: center;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .benefit {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .benefit__item {
+    gap: 10px;
+  }
+  .benefit__title {
+    min-height: 100%;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/components/About/About.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.about {
+  position: relative;
+  padding-left: 80px;
+  height: 600px;
+}
+.about__content {
+  padding-top: 50px;
+}
+.about::before {
+  content: "Хмели-сумели и вы сможете!";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 600px;
+  background-color: #dc3545;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.05px;
+  padding: 0 55px;
+}
+.about::after {
+  content: "";
+  display: flex;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  top: 207px;
+  right: 48px;
+  width: 230px;
+  height: 224px;
+  background-color: #f5f5f5;
+  -webkit-mask-image: url(/_next/static/media/message-icon.0f265e40.svg);
+          mask-image: url(/_next/static/media/message-icon.0f265e40.svg);
+  -webkit-mask-size: cover;
+          mask-size: cover;
+}
+
+@media screen and (max-width: 991px) {
+  .about {
+    padding: 0 20px 70px;
+    height: 100%;
+    max-width: 711px;
+    margin: 0 auto;
+  }
+  .about::before {
+    width: 201px;
+    height: 189px;
+    top: 39%;
+    right: 35%;
+    background-color: #fff;
+    color: #dc3545;
+    font-size: 19px;
+    padding: 0 15px;
+  }
+  .about::after {
+    top: 40%;
+    right: 35%;
+    width: 210px;
+    height: 202px;
+    background-color: #dc3545;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about::before {
+    display: none;
+  }
+  .about::after {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .about__content {
+    padding-top: 30px;
+  }
+}

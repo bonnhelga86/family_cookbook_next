@@ -1,0 +1,48 @@
+$mainColor: #dc3545;
+
+.sign {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__content {
+    width: 500px;
+    border-radius: 10px;
+  }
+
+  &__logo-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  &__link {
+    margin-left: 10px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .sign {
+    &__content {
+      width: 317px;
+    }
+  }
+}
